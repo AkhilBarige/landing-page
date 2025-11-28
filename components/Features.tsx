@@ -135,7 +135,7 @@ export default function Features() {
                                         <img
                                             src={feature.demoUrl || "/placeholder.svg"}
                                             alt={`${feature.title} demonstration showing ${feature.tooltip}`}
-                                            className="h-48 w-full object-cover bg-background transition-transform duration-500 group-hover:scale-105"
+                                            className="h-48 w-full object-cover bg-background transition-transform duration-1000 group-hover:scale-105"
                                             loading="lazy"
                                         />
                                     </div>

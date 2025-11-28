@@ -39,7 +39,7 @@ export default function Footer() {
                         <div className="flex items-center gap-3">
                             {[
                                 { href: "https://twitter.com", icon: Twitter, color: "#1DA1F2" },
-                                { href: "https://github.com", icon: Github, color: "#333" },
+                                { href: "https://github.com/AkhilBarige", icon: Github, color: "#333" },
                                 { href: "https://linkedin.com", icon: Linkedin, color: "#0A66C2" },
                                 { href: "https://facebook.com", icon: Facebook, color: "#1877F2" },
                             ].map(({ href, icon: Icon, color }, i) => (
